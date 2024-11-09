@@ -72,9 +72,9 @@ def predict(img_path):
     show_result(img_path, predicted_label)
 
 def main():
-    # This is a test, you can also try it with other images from the tests folder. 
+    # This is a test, you can also try it with other images. 
     # These are all google search images, not from CIFAR-10.
-    img_path = 'tests/img_truck.jpg'
+    img_path = 'img_truck.jpg'
     predict(img_path)
 
 main()
